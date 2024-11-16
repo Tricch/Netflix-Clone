@@ -1,0 +1,272 @@
+@media (min-width: 1920px) {
+    .main-section .background {
+        height: 40rem;
+    }
+
+    .main-section .background .image {
+        height: 45rem;
+    }
+
+    main {
+        padding-top: 30rem;
+    }
+
+    main .start {
+        max-width: 40rem;
+    }
+
+    main .start h1 {
+        font-size: 3.5rem;
+    }
+
+    .start form {
+        padding-top: 5rem;
+    }
+
+    .movie-cards .image {
+        height: 400px;
+        width: 200px;
+    }
+
+    .movie-cards span {
+        font-size: 5rem;
+    }
+}
+
+@media (max-width: 1280px) {
+    .main-section .background {
+        height: 20rem;
+    }
+
+    .main-section .background .image {
+        height: 25rem;
+    }
+
+    .main-section .background .image .image-bg {
+        background: #0f0f0f;
+        opacity: 0.6;
+    }
+
+    main {
+        padding-top: 12rem;
+    }
+
+    main .start {
+        max-width: 35rem;
+    }
+
+    main .start h1 {
+        font-size: 2.8rem;
+    }
+
+    main .start p {
+        font-size: 1rem;
+        opacity: 0.8;
+    }
+
+    .start form {
+        padding-top: 5rem;
+    }
+
+    .layout {
+        width: 90%;
+    }
+
+    .layout h2 {
+        font-size: 1.3rem;
+    }
+
+    .movie-cards .image {
+        height: 280px;
+        width: 140px;
+    }
+
+    .movie-cards span {
+        font-size: 3.5rem;
+    }
+
+    .join .join-card {
+        height: 8.5rem;
+    }
+
+    .join .join-card span {
+        font-size: 0.9rem;
+    }
+
+    .join .join-card img {
+        top: 4rem;
+    }
+
+    footer {
+        width: 90%;
+        margin-bottom: 8px;
+    }
+
+    footer .links {
+        grid-template-columns: auto auto auto;
+    }
+}
+
+@media (max-width: 960px) {
+    .body{
+        height: 160%;
+    }
+
+    nav img:nth-child(1) {
+        display: none;
+    }
+
+    nav img:nth-child(2) {
+        display: block;
+    }
+
+    .main-section .background .image {
+        height: 21rem;
+    }
+
+    .main-section .background .image .image-bg {
+        background: #0f0f0f;
+        opacity: 0.6;
+    }
+
+    .more-style {
+        background: transparent;
+    }
+
+    main .start .text {
+        width: 75%;
+        margin: auto;
+    }
+
+    main .start h1 {
+        font-size: 2.3rem;
+    }
+
+    main .start p {
+        font-size: 1rem;
+    }
+
+    .start form {
+        padding-top: 2rem;
+    }
+
+    .start form button {
+        font-size: 1.3rem;
+    }
+
+    .layout {
+        width: 100%;
+    }
+
+    .trending {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .layout h2 {
+        font-size: 1.3rem;
+        font-weight: 700;
+    }
+
+    .movie-cards .image {
+        height: 200px;
+        width: 100px;
+        left: -6px;
+    }
+
+    .movie-cards span {
+        font-size: 2.5rem;
+    }
+
+    .join .join-cards {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .join .join-card {
+        height: 7rem;
+        align-items: center;
+    }
+
+    .join .join-card span {
+        font-size: 1rem;
+    }
+
+    .join .join-card img {
+        top: 0;
+        height: 3rem;
+        width: 3rem;
+    }
+
+    .accordion-header button{
+        font-size: 0.9rem;
+        padding: 18px;
+    }
+
+    .accordion-body{
+        font-size: 0.9rem;
+        padding: 25px;
+    }
+
+    footer {
+        width: 100%;
+        margin-bottom: 8px;
+    }
+
+    footer .links {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media (max-width: 598px){
+    .container {
+        padding: 0 25px;
+    }
+
+    main {
+        padding-top: 0;
+    }
+
+    main .start{
+        width: 100%;
+    }
+
+    main .start .text {
+        width: 95%;
+        margin: auto;
+        height: 20rem;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        flex-direction: column;
+    }
+
+    main .start h1 {
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+
+    main .start p {
+        font-size: 0.9rem;
+        font-weight: normal;
+    }
+
+    .start form {
+        flex-direction: column;
+    }
+
+    .start form button {
+        width: 10rem;
+        font-size: 1.1rem;
+        font-weight: 600;
+        padding: 12px;
+    }
+
+    footer .contact{
+        font-weight: 500;
+    }
+
+    footer .links {
+        grid-template-columns: auto;
+    }
+}
